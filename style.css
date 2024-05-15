@@ -1,0 +1,41 @@
+@font-face {
+    font-family: kanit;
+    src: url(KANIT-REGULAR.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+
+    && .content {
+        text-align: center;
+
+        && button {
+            border: none;
+            background: rgb(0, 99, 102);
+            width: 300px;
+            font-size: 20px;
+            margin-top: 20px;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 9px;
+        }
+
+        && h1 {
+            font-size: 20px;
+        }
+        && h2 {
+            font-size: 18px;
+        }
+    }
+}
